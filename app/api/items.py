@@ -1,6 +1,6 @@
 # items.py - API endpoints for items
 
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, status
 from pydantic import BaseModel, ConfigDict
 from sqlalchemy.orm import Session
 
