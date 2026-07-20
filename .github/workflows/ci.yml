@@ -39,7 +39,7 @@ jobs:
         with:
           python-version: 3.13
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requirements-dev.txt
 
       - name: Test code
         run: pytest tests/test_health.py
